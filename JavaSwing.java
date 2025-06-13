@@ -15,8 +15,8 @@ public class JavaSwing {
         int TotalDeDias = 0;
         
         ano = Integer.parseInt(JOptionPane.showInputDialog("Digite quantos anos você tem: "));
-        mes = Integer.parseInt(JOptionPane.showInputDialog("Digite quantos o mês que você está: "));
-        dia = Integer.parseInt(JOptionPane.showInputDialog("Digite quantos o dia que você está: ")); 
+        mes = Integer.parseInt(JOptionPane.showInputDialog("Digite qual o mês que você está em numerais: "));
+        dia = Integer.parseInt(JOptionPane.showInputDialog("Digite qual o dia que você está: ")); 
         TotalDeDias = (ano * 365) + (mes * 30) + (dia);
         JOptionPane.showMessageDialog(null, "Você tem " + TotalDeDias + " dias de vida.");
         //Término da primeira tarefa    
